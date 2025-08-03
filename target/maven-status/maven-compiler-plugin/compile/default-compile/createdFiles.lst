@@ -1,0 +1,14 @@
+com\authenticate\util\TOTPRegistration.class
+com\authenticate\controller\HomeController.class
+com\authenticate\MainApp.class
+com\authenticate\controller\TOTPController.class
+com\authenticate\LicenseValidator.class
+com\authenticate\MacUtils.class
+com\authenticate\util\TOTPUtils.class
+com\authenticate\AppConfig.class
+com\authenticate\security\LoginValidator.class
+com\authenticate\LicenseKeyGenerator.class
+com\authenticate\service\TOTPLoginService.class
+com\authenticate\controller\RegisterController.class
+com\authenticate\totp\QRCodeGenerator.class
+com\authenticate\controller\LoginController.class

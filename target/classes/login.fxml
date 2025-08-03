@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.authenticate.controller.LoginController">
+    <center>
+        <VBox spacing="15" alignment="CENTER" BorderPane.alignment="CENTER">
+            <Label text="Secure Login" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+            
+            <ImageView fx:id="qrImageView" fitHeight="200" fitWidth="200" visible="false" managed="false"/>
+    		<Label fx:id="qrImageViewLabel" layoutX="100" layoutY="10" text="Scan this QR in Google Authenticator for first time login" visible="false" />
+            
+            <VBox spacing="10" alignment="CENTER" prefWidth="300" prefHeight="100">
+                <TextField fx:id="usernameField" promptText="Username" maxWidth="250"/>
+                <PasswordField fx:id="passwordField" promptText="Password" maxWidth="250"/>
+                
+                <HBox spacing="10" alignment="CENTER">
+                    <Button text="Login" onAction="#handleLogin"
+                            style="-fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+                    <Button text="Cancel" onAction="#handleCancel"
+                            style="-fx-background-color: #f44336; -fx-text-fill: white;"/>
+                </HBox>
+                <Label fx:id="messageLabel" textFill="red"/>
+            </VBox>
+        </VBox>
+    </center>
+    <padding>
+        <Insets top="30" right="30" bottom="30" left="30"/>
+    </padding>
+</BorderPane>

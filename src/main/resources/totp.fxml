@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.authenticate.controller.TOTPController"
+      alignment="CENTER" spacing="10" prefWidth="300" prefHeight="200">
+          
+    <Label text="Enter 6-digit Code from Authenticator"/>
+    <TextField fx:id="codeField" promptText="123456"/>
+    <Label fx:id="errorLabel" textFill="red"/>
+    <Button text="Verify" onAction="#onVerify"/>
+</VBox>

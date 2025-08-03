@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.authenticate.controller.HomeController"
+            prefWidth="800" prefHeight="600"
+            minWidth="600" minHeight="400">
+
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="10" style="-fx-background-color: #03a9f4;">
+		    <padding>
+		        <Insets top="5" right="5" bottom="5" left="5"/>
+		    </padding>
+            <!-- Left-aligned Menus -->
+            <MenuBar style="-fx-background-color: transparent;">
+                <Menu fx:id="adminMenu" text="Admin" visible="false">
+                    <MenuItem text="Create Manager" onAction="#onCreateUser"/>
+                </Menu>
+                <Menu fx:id="managerMenu" text="Manager" visible="false">
+                    <MenuItem text="Create User" onAction="#onCreateUser"/>
+                </Menu>
+                <Menu fx:id="userMenu" text="User">
+                    <MenuItem text="View Profile"/>
+                </Menu>
+            </MenuBar>
+
+            <!-- Spacer -->
+            <Region HBox.hgrow="ALWAYS"/>
+
+            <!-- Right-aligned Menu -->
+            <MenuBar style="-fx-background-color: transparent;">
+                <Menu fx:id="userProfileMenu" text="👤 ">
+				    <MenuItem text="👥 My Details" onAction="#onMyDetails"/>
+				    	<SeparatorMenuItem />
+				    <MenuItem text="↩ Sign out" onAction="#onLogout"/>
+				    <MenuItem text="Exit" onAction="#onExit"/>
+				</Menu>
+            </MenuBar>
+        </HBox>
+    </top>
+
+    <center>
+        <Label fx:id="welcomeLabel"
+               text="Welcome!"
+               style="-fx-font-size: 16px;"/>
+    </center>
+
+</BorderPane>

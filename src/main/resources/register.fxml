@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.authenticate.controller.RegisterController"
+            prefWidth="400" prefHeight="300">
+
+    <ImageView fx:id="qrImageView" layoutX="100" layoutY="50" fitWidth="200" fitHeight="200"/>
+    <Label layoutX="100" layoutY="10" text="Scan this QR in Google Authenticator" />
+</AnchorPane>
