@@ -1,9 +1,13 @@
 package com.authenticate;
 import java.net.NetworkInterface;
-
 import java.util.Collections;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class MacUtils {
+    private static final Logger logger = LoggerFactory.getLogger(MacUtils.class);
+
     public static String getSystemMacAddress() {
         try {
             for (NetworkInterface ni : Collections.list(NetworkInterface.getNetworkInterfaces())) {
@@ -18,6 +22,7 @@ public class MacUtils {
             }
         } catch (Exception e) {
             e.printStackTrace();
+            logger.error("An error occurred", e);
         }
         return "UNKNOWN";
     }

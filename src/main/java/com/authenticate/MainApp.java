@@ -1,5 +1,7 @@
 package com.authenticate;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import javafx.application.Application;
@@ -10,7 +12,8 @@ import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 
 public class MainApp extends Application {
-
+	
+    private static final Logger log = LoggerFactory.getLogger(MainApp.class);
     private AnnotationConfigApplicationContext context;
     
     @Override
@@ -24,7 +27,7 @@ public class MainApp extends Application {
         	LicenseKeyGenerator.generatorKey();
         	
         } catch (Exception e) {
-            System.err.println("License Error: " + e.getMessage());
+            log.error("Error launching app", e.getMessage());
             Platform.exit();
             return;
         }
@@ -52,6 +55,7 @@ public class MainApp extends Application {
     }
 
     public static void main(String[] args) {
+        log.info("Starting JavaFX application...");
         launch(args);
     }
 }

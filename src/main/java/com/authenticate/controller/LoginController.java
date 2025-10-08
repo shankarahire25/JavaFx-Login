@@ -1,5 +1,7 @@
 package com.authenticate.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import com.authenticate.LicenseValidator;
@@ -20,6 +22,8 @@ import javafx.stage.Stage;
 @Component
 public class LoginController {
 
+	private static final Logger log = LoggerFactory.getLogger(LoginController.class);
+	
 	@FXML private TextField usernameField;
 	@FXML private PasswordField passwordField;
 	@FXML private Label messageLabel;
@@ -67,7 +71,7 @@ public class LoginController {
 				messageLabel.setText("Invalid username or password.");
 			}
 
-			System.out.println("isValid:--->"+isValid);
+			log.info("isValid:--->"+isValid);
 			
 			if(isValid) {
 				FXMLLoader loader = new FXMLLoader(getClass().getResource("/totp.fxml"));
@@ -87,6 +91,7 @@ public class LoginController {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
+            log.error("Error LoginController :-", e);
 		}
 	}
 
@@ -107,7 +112,7 @@ public class LoginController {
 	    	Image fxImage = new Image(qrUrl);
 	        qrImageView.setImage(fxImage);
 	    } catch (Exception e) {
-	        e.printStackTrace();
+	    	log.error("An error occurred", e);
 	    }
 	}
 }

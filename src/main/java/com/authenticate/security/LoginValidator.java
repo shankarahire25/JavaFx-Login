@@ -1,13 +1,18 @@
 package com.authenticate.security;
 
-import com.warrenstrange.googleauth.GoogleAuthenticator;
-
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class LoginValidator {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import com.authenticate.MainApp;
+import com.warrenstrange.googleauth.GoogleAuthenticator;
+
+public class LoginValidator {
+    private static final Logger logger = LoggerFactory.getLogger(MainApp.class);
+    
     public static boolean validateCode(String username, int enteredCode) {
         try {
             String path = "user_secrets/" + username + ".key";
@@ -21,7 +26,7 @@ public class LoginValidator {
             GoogleAuthenticator gAuth = new GoogleAuthenticator();
             return gAuth.authorize(secret, enteredCode);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Error : ",e);
             return false;
         }
     }

@@ -1,5 +1,7 @@
 package com.authenticate.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javafx.fxml.FXML;
@@ -10,6 +12,8 @@ import javafx.stage.Stage;
 @Component
 public class HomeController {
 
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	
 	@FXML private Label welcomeLabel;
 	@FXML private Menu adminMenu;
 	@FXML private Menu managerMenu;
@@ -48,12 +52,12 @@ public class HomeController {
 
 	@FXML
 	public void onCreateUser() {
-		System.out.println("Create User clicked!");
+		logger.info("Create User clicked!");
 	}
 
 	@FXML
 	private void onLogout() {
-		// TODO: implement logout
+		logger.info("Logout....");
 	}
 
 

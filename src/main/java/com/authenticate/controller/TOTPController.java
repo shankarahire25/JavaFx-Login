@@ -1,5 +1,8 @@
 package com.authenticate.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.authenticate.service.TOTPLoginService;
 
 import javafx.fxml.FXML;
@@ -10,7 +13,8 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 public class TOTPController {
-
+	
+    private static final Logger logger = LoggerFactory.getLogger(TOTPController.class);
 	@FXML private TextField codeField;
 	@FXML private Label errorLabel;
 
@@ -55,7 +59,7 @@ public class TOTPController {
 				}
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error("An error occurred", e);
 			errorLabel.setText("Enter a valid 6-digit code.");
 		}
 	}

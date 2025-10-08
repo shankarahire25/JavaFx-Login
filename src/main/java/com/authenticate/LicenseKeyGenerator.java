@@ -9,19 +9,23 @@ import java.util.Base64;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class LicenseKeyGenerator {
 
+	private static final Logger logger = LoggerFactory.getLogger(LicenseKeyGenerator.class);
     private static final String SECRET_KEY = "MySuperSecretKey123";
 
     public static void generatorKey() {
         try {
             // Input values
             String macAddress = MacUtils.getSystemMacAddress();
-            String expiryDate = "2025-06-02";
+            String expiryDate = "2025-10-10";
 
             String data = macAddress + "=" + expiryDate;
             
-            System.out.println("data:--->"+data);
+            logger.info("data:--->"+data);
             
             // Generate AES key
             byte[] key = SECRET_KEY.getBytes("UTF-8");
@@ -43,16 +47,20 @@ public class LicenseKeyGenerator {
             if (!licenseFile.exists() || Files.readString(licenseFile.toPath()).trim().isEmpty()) {
                 try (FileWriter writer = new FileWriter(licenseFile)) {
                     writer.write(encryptedString);
-                    System.out.println("Encrypted license written to license.key");
+                    logger.info("Encrypted license written to license.key");
                 } catch (Exception e) {
                     e.printStackTrace();
+                    logger.error("An error occurred", e);
+
                 }
             } else {
-                System.out.println("license.key already exists and is not empty. Skipping write.");
+            	logger.info("license.key already exists and is not empty. Skipping write.");
+                
             }
 
         } catch (Exception e) {
             e.printStackTrace();
+            logger.error("An error occurred", e);
         }
     }
 }

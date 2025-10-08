@@ -41,6 +41,7 @@ public class LicenseValidator {
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date expiryDate = sdf.parse(expiryDateStr);
+        
         if (expiryDate.before(new Date())) {
         	errorMessage = "License has expired.";
         	 System.out.println("errorMessage:-->"+errorMessage);

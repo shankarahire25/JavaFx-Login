@@ -3,6 +3,9 @@ package com.authenticate.controller;
 import java.io.File;
 import java.io.FileWriter;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.warrenstrange.googleauth.GoogleAuthenticator;
 import com.warrenstrange.googleauth.GoogleAuthenticatorKey;
 import com.warrenstrange.googleauth.GoogleAuthenticatorQRGenerator;
@@ -11,6 +14,8 @@ import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
 
 public class RegisterController {
+	
+    private static final Logger logger = LoggerFactory.getLogger(RegisterController.class);
 
 	private static final String USERNAME = "rameshnavnath@gmail.com";
 	private static final String SECRET_FILE = "user_secrets/" + USERNAME + ".key";
@@ -29,7 +34,7 @@ public class RegisterController {
 			// If key already exists, skip
 			File file = new File(SECRET_FILE);
 			if (file.exists()) {
-				System.out.println("Secret already exists.");
+				logger.info("Secret already exists...");
 				return "";
 			}
 
@@ -41,10 +46,12 @@ public class RegisterController {
 			try (FileWriter writer = new FileWriter(file)) {
 				writer.write(key.getKey());
 			}
-			System.out.println("Secret saved: " + key.getKey());
-
+			
+			logger.info("Secret saved: " + key.getKey());
+			
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error("An error occurred", e);
+
 		}
 		return otpAuthURL;
 	}
