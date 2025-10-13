@@ -12,8 +12,14 @@ import java.util.Date;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
-public class LicenseValidator {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import com.authenticate.controller.LoginController;
+
+public class LicenseValidator {
+	
+	private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
     private static final String SECRET_KEY = "MySuperSecretKey123";
 
     public static String validateLicense() throws Exception {
@@ -37,14 +43,14 @@ public class LicenseValidator {
         if (!macInLicense.equalsIgnoreCase(currentMac)) {
             throw new RuntimeException("MAC address does not match.");
         }
-        System.out.println("expiryDateStr:-->"+expiryDateStr);
+        logger.info("expiryDateStr:-->"+expiryDateStr);
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date expiryDate = sdf.parse(expiryDateStr);
         
         if (expiryDate.before(new Date())) {
         	errorMessage = "License has expired.";
-        	 System.out.println("errorMessage:-->"+errorMessage);
+        	logger.info("errorMessage:-->"+errorMessage);
         }
         return errorMessage;
     }

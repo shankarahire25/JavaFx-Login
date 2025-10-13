@@ -22,7 +22,7 @@ import javafx.stage.Stage;
 @Component
 public class LoginController {
 
-	private static final Logger log = LoggerFactory.getLogger(LoginController.class);
+	private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 	
 	@FXML private TextField usernameField;
 	@FXML private PasswordField passwordField;
@@ -37,12 +37,14 @@ public class LoginController {
 		String password = passwordField.getText();
 		String role = "";
 		
+		logger.info("username:==--->"+username);
+		
 		boolean isValid = true;
 		try {
 			Stage stage = (Stage) usernameField.getScene().getWindow();
 			String validateLicense = LicenseValidator.validateLicense();
-			System.out.println("validateLicense:==--->"+validateLicense);
-			System.out.println("validate       :==--->"+(!validateLicense.trim().isEmpty()));
+			logger.info("validateLicense:==--->"+validateLicense);
+			logger.info("validate       :==--->"+(!validateLicense.trim().isEmpty()));
 			
 			if(!validateLicense.trim().isEmpty()) {
 				Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -71,7 +73,7 @@ public class LoginController {
 				messageLabel.setText("Invalid username or password.");
 			}
 
-			log.info("isValid:--->"+isValid);
+			logger.info("isValid:--->"+isValid);
 			
 			if(isValid) {
 				FXMLLoader loader = new FXMLLoader(getClass().getResource("/totp.fxml"));
@@ -91,7 +93,7 @@ public class LoginController {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-            log.error("Error LoginController :-", e);
+            logger.error("Error LoginController :-", e);
 		}
 	}
 
@@ -112,7 +114,7 @@ public class LoginController {
 	    	Image fxImage = new Image(qrUrl);
 	        qrImageView.setImage(fxImage);
 	    } catch (Exception e) {
-	    	log.error("An error occurred", e);
+	    	logger.error("An error occurred", e);
 	    }
 	}
 }

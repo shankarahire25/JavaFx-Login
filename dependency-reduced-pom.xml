@@ -18,7 +18,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>com.example.login.MainApp</mainClass>
+          <mainClass>com.authenticate.MainApp</mainClass>
         </configuration>
       </plugin>
       <plugin>
@@ -30,15 +30,15 @@
             <goals>
               <goal>shade</goal>
             </goals>
+            <configuration>
+              <transformers>
+                <transformer>
+                  <mainClass>com.authenticate.MainApp</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
           </execution>
         </executions>
-        <configuration>
-          <transformers>
-            <transformer>
-              <mainClass>com.authenticate.MainApp</mainClass>
-            </transformer>
-          </transformers>
-        </configuration>
       </plugin>
     </plugins>
   </build>

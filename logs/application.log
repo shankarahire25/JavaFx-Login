@@ -1,0 +1,637 @@
+2025-10-09 21:34:29 INFO  c.a.MainApp:58 - Starting JavaFX application...
+2025-10-09 21:34:30 INFO  c.a.LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-09 21:34:30 INFO  c.a.LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-09 21:34:31 INFO  c.a.c.LoginController:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:34:52 INFO  c.a.c.LoginController:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:34:52 INFO  c.a.c.LoginController:44 - validateLicense:==--->
+2025-10-09 21:34:52 INFO  c.a.c.LoginController:45 - validate       :==--->false
+2025-10-09 21:34:52 INFO  c.a.c.LoginController:74 - isValid:--->true
+2025-10-09 21:34:52 INFO  c.a.c.RegisterController:37 - Secret already exists...
+2025-10-09 21:35:19 INFO  c.a.c.TOTPController:36 - code    :--->6169
+2025-10-09 21:35:19 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:35:19 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:35:19 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:35:19 INFO  c.a.s.TOTPLoginService:27 - code  :--->6169
+2025-10-09 21:35:19 INFO  c.a.c.TOTPController:40 - isValidCode:--->true
+2025-10-09 21:35:19 INFO  c.a.c.TOTPController:58 - TOTP Verified. Proceeding to home...
+2025-10-09 21:39:22 INFO  c.a.MainApp:58 - Starting JavaFX application...
+2025-10-09 21:39:22 INFO  c.a.LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-09 21:39:23 INFO  c.a.LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-09 21:39:24 INFO  c.a.LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:42:53 INFO  c.a.MainApp:58 - Starting JavaFX application...
+2025-10-09 21:42:54 INFO  c.a.LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-09 21:42:54 INFO  c.a.LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-09 21:42:55 INFO  c.a.LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:43:01 INFO  c.a.LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:43:01 INFO  c.a.c.LoginController:44 - validateLicense:==--->
+2025-10-09 21:43:01 INFO  c.a.c.LoginController:45 - validate       :==--->false
+2025-10-09 21:43:01 INFO  c.a.c.LoginController:74 - isValid:--->true
+2025-10-09 21:43:01 INFO  c.a.c.RegisterController:37 - Secret already exists...
+2025-10-09 21:43:11 INFO  c.a.c.TOTPController:36 - code    :--->312321
+2025-10-09 21:43:11 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:43:11 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:43:11 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:43:11 INFO  c.a.s.TOTPLoginService:27 - code  :--->312321
+2025-10-09 21:43:11 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:31 INFO  c.a.MainApp:58 - Starting JavaFX application...
+2025-10-09 21:50:32 INFO  c.a.LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-09 21:50:32 INFO  c.a.LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-09 21:50:33 INFO  c.a.LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:50:39 INFO  c.a.LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:50:39 INFO  c.a.c.LoginController:44 - validateLicense:==--->
+2025-10-09 21:50:39 INFO  c.a.c.LoginController:45 - validate       :==--->false
+2025-10-09 21:50:39 INFO  c.a.c.LoginController:74 - isValid:--->true
+2025-10-09 21:50:40 INFO  c.a.c.RegisterController:37 - Secret already exists...
+2025-10-09 21:50:43 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:43 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:43 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:43 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:43 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:43 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:44 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:44 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:45 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:45 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:45 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:45 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:45 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:45 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:45 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:45 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:45 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:45 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:45 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:45 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:50:46 INFO  c.a.c.TOTPController:36 - code    :--->21312
+2025-10-09 21:50:46 INFO  c.a.c.TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-09 21:50:46 INFO  c.a.s.TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-09 21:50:46 INFO  c.a.s.TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-09 21:50:46 INFO  c.a.s.TOTPLoginService:27 - code  :--->21312
+2025-10-09 21:50:46 INFO  c.a.c.TOTPController:40 - isValidCode:--->false
+2025-10-09 21:52:14 INFO  :58 - Starting JavaFX application...
+2025-10-09 21:52:15 INFO  :28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-09 21:52:15 INFO  :57 - license.key already exists and is not empty. Skipping write.
+2025-10-09 21:52:16 INFO  :46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:52:23 INFO  :46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:52:23 INFO  :44 - validateLicense:==--->
+2025-10-09 21:52:23 INFO  :45 - validate       :==--->false
+2025-10-09 21:52:23 INFO  :74 - isValid:--->true
+2025-10-09 21:52:23 INFO  :37 - Secret already exists...
+2025-10-09 21:52:25 ERROR :64 - An error occurred
+java.lang.NumberFormatException: For input string: "qeqwe"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.authenticate.controller.TOTPController.onVerify(TOTPController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:423)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-10-09 21:54:03 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-09 21:54:04 INFO  LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-09 21:54:04 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-09 21:54:05 INFO  LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:54:10 INFO  LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-09 21:54:10 INFO  LoginController:44 - validateLicense:==--->
+2025-10-09 21:54:10 INFO  LoginController:45 - validate       :==--->false
+2025-10-09 21:54:10 INFO  LoginController:74 - isValid:--->true
+2025-10-09 21:54:10 INFO  RegisterController:37 - Secret already exists...
+2025-10-09 21:54:14 ERROR TOTPController:64 - An error occurred
+java.lang.NumberFormatException: For input string: "asdfsdfa"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.authenticate.controller.TOTPController.onVerify(TOTPController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:423)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-10-09 21:54:15 ERROR TOTPController:64 - An error occurred
+java.lang.NumberFormatException: For input string: "asdfsdfa"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.authenticate.controller.TOTPController.onVerify(TOTPController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:423)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-10-09 21:54:44 ERROR TOTPController:64 - An error occurred
+java.lang.NumberFormatException: For input string: "asdfsdfa"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.authenticate.controller.TOTPController.onVerify(TOTPController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:423)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-10-10 19:02:36 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-10 19:02:38 INFO  LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-10-10
+2025-10-10 19:02:39 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-10 19:02:40 INFO  LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-10 19:02:40 INFO  LicenseValidator:53 - errorMessage:-->License has expired.
+2025-10-10 19:04:05 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-10 19:04:06 INFO  LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-11-10
+2025-10-10 19:04:06 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-10 19:04:07 INFO  LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-10 19:04:07 INFO  LicenseValidator:53 - errorMessage:-->License has expired.
+2025-10-10 19:21:47 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-10 19:21:47 INFO  LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-11-11
+2025-10-10 19:21:48 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-10 19:21:49 INFO  LicenseValidator:46 - expiryDateStr:-->2025-10-10
+2025-10-10 19:21:49 INFO  LicenseValidator:53 - errorMessage:-->License has expired.
+2025-10-10 19:22:55 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-10 19:22:56 INFO  LicenseKeyGenerator:28 - data:--->B0-10-41-64-9B-17=2025-11-11
+2025-10-10 19:22:56 INFO  LicenseKeyGenerator:50 - Encrypted license written to license.key
+2025-10-10 19:22:57 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-10 19:23:03 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-10 19:23:03 INFO  LoginController:44 - validateLicense:==--->
+2025-10-10 19:23:03 INFO  LoginController:45 - validate       :==--->false
+2025-10-10 19:23:03 INFO  LoginController:74 - isValid:--->true
+2025-10-10 19:23:03 INFO  RegisterController:37 - Secret already exists...
+2025-10-10 19:35:50 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-10 19:35:52 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-10 19:35:52 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-10 21:09:31 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-10 21:09:31 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-10 21:09:31 INFO  LicenseKeyGenerator:50 - Encrypted license written to license.key
+2025-10-10 21:09:33 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 09:45:12 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 09:45:14 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 09:45:14 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 09:45:15 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 09:45:19 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 09:45:19 INFO  LoginController:44 - validateLicense:==--->
+2025-10-11 09:45:19 INFO  LoginController:45 - validate       :==--->false
+2025-10-11 09:45:19 INFO  LoginController:74 - isValid:--->true
+2025-10-11 09:45:19 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 09:49:09 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 09:49:11 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 09:49:11 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 09:49:13 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 09:49:36 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 09:49:36 INFO  LoginController:44 - validateLicense:==--->
+2025-10-11 09:49:36 INFO  LoginController:45 - validate       :==--->false
+2025-10-11 09:49:36 INFO  LoginController:74 - isValid:--->true
+2025-10-11 09:49:36 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 11:13:08 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 11:13:09 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 11:13:09 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 11:13:10 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:13:14 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:13:14 INFO  LoginController:44 - validateLicense:==--->
+2025-10-11 11:13:14 INFO  LoginController:45 - validate       :==--->false
+2025-10-11 11:13:14 INFO  LoginController:74 - isValid:--->true
+2025-10-11 11:13:14 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 11:13:40 INFO  TOTPController:36 - code    :--->383537
+2025-10-11 11:13:40 INFO  TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-11 11:13:40 INFO  TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-11 11:13:40 INFO  TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-11 11:13:40 INFO  TOTPLoginService:27 - code  :--->383537
+2025-10-11 11:13:40 INFO  TOTPController:40 - isValidCode:--->true
+2025-10-11 11:13:41 INFO  TOTPController:58 - TOTP Verified. Proceeding to home...
+2025-10-11 11:13:50 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:13:50 INFO  LoginController:44 - validateLicense:==--->
+2025-10-11 11:13:50 INFO  LoginController:45 - validate       :==--->false
+2025-10-11 11:13:50 INFO  LoginController:74 - isValid:--->true
+2025-10-11 11:13:50 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 11:14:00 INFO  TOTPController:36 - code    :--->383537
+2025-10-11 11:14:00 INFO  TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-11 11:14:00 INFO  TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-11 11:14:00 INFO  TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-11 11:14:00 INFO  TOTPLoginService:27 - code  :--->383537
+2025-10-11 11:14:00 INFO  TOTPController:40 - isValidCode:--->true
+2025-10-11 11:14:00 INFO  TOTPController:58 - TOTP Verified. Proceeding to home...
+2025-10-11 11:14:10 INFO  HomeController:55 - Create User clicked!
+2025-10-11 11:14:41 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 11:14:42 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 11:14:42 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 11:14:44 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:14:46 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:14:46 INFO  LoginController:44 - validateLicense:==--->
+2025-10-11 11:14:46 INFO  LoginController:45 - validate       :==--->false
+2025-10-11 11:14:46 INFO  LoginController:74 - isValid:--->true
+2025-10-11 11:14:46 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 11:14:58 INFO  TOTPController:36 - code    :--->845757
+2025-10-11 11:14:58 INFO  TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-11 11:14:58 INFO  TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-11 11:14:58 INFO  TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-11 11:14:58 INFO  TOTPLoginService:27 - code  :--->845757
+2025-10-11 11:14:58 INFO  TOTPController:40 - isValidCode:--->true
+2025-10-11 11:14:58 INFO  TOTPController:58 - TOTP Verified. Proceeding to home...
+2025-10-11 11:15:11 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:15:11 INFO  LoginController:44 - validateLicense:==--->
+2025-10-11 11:15:11 INFO  LoginController:45 - validate       :==--->false
+2025-10-11 11:15:11 INFO  LoginController:74 - isValid:--->true
+2025-10-11 11:15:11 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 11:15:20 INFO  TOTPController:36 - code    :--->495992
+2025-10-11 11:15:20 INFO  TOTPController:37 - username:--->rameshnavnath@gmail.com
+2025-10-11 11:15:20 INFO  TOTPLoginService:18 - filePath:-->user_secrets\rameshnavnath@gmail.com.key
+2025-10-11 11:15:20 INFO  TOTPLoginService:26 - secret  :--->4FF5FAUMGY76XCTPL3IHNWC2HF7XXVZE
+2025-10-11 11:15:20 INFO  TOTPLoginService:27 - code  :--->495992
+2025-10-11 11:15:20 INFO  TOTPController:40 - isValidCode:--->true
+2025-10-11 11:15:20 INFO  TOTPController:58 - TOTP Verified. Proceeding to home...
+2025-10-11 11:38:04 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 11:38:04 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 11:38:04 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 11:38:06 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:48:59 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 11:49:00 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 11:49:00 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 11:49:02 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:49:07 INFO  LoginController:40 - username:==--->a
+2025-10-11 11:49:07 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:49:07 INFO  LoginController:46 - validateLicense:==--->
+2025-10-11 11:49:07 INFO  LoginController:47 - validate       :==--->false
+2025-10-11 11:49:07 INFO  LoginController:76 - isValid:--->true
+2025-10-11 11:49:07 ERROR LoginController:96 - Error LoginController :-
+javafx.fxml.LoadException: Error resolving onAction='#cc', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Nitin%20B/git/JavaFx-Login/target/classes/totp.fxml:15
+
+	at javafx.fxml/javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2710)
+	at javafx.fxml/javafx.fxml.FXMLLoader$Element.processEventHandlerAttributes(FXMLLoader.java:621)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ValueElement.processEndElement(FXMLLoader.java:781)
+	at javafx.fxml/javafx.fxml.FXMLLoader.processEndElement(FXMLLoader.java:2961)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2646)
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2555)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2523)
+	at com.authenticate.controller.LoginController.handleLogin(LoginController.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:423)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-11 11:55:13 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 11:55:14 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 11:55:14 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-11 11:55:15 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:55:18 INFO  LoginController:40 - username:==--->a
+2025-10-11 11:55:18 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 11:55:18 INFO  LoginController:46 - validateLicense:==--->
+2025-10-11 11:55:18 INFO  LoginController:47 - validate       :==--->false
+2025-10-11 11:55:18 INFO  LoginController:76 - isValid:--->true
+2025-10-11 11:55:18 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 12:06:42 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-11 12:06:43 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-11 12:06:43 INFO  LicenseKeyGenerator:50 - Encrypted license written to license.key
+2025-10-11 12:06:45 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 12:06:52 INFO  LoginController:40 - username:==--->a
+2025-10-11 12:06:52 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-11 12:06:52 INFO  LoginController:46 - validateLicense:==--->
+2025-10-11 12:06:52 INFO  LoginController:47 - validate       :==--->false
+2025-10-11 12:06:52 INFO  LoginController:76 - isValid:--->true
+2025-10-11 12:06:52 INFO  RegisterController:37 - Secret already exists...
+2025-10-11 12:07:07 ERROR TOTPController:64 - An error occurred
+java.lang.NumberFormatException: For input string: "sfs"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.authenticate.controller.TOTPController.onVerify(TOTPController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:423)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-13 21:11:38 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-13 21:11:39 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-13 21:11:39 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-13 21:11:40 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-13 21:11:44 INFO  LoginController:40 - username:==--->a
+2025-10-13 21:11:44 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-13 21:11:44 INFO  LoginController:46 - validateLicense:==--->
+2025-10-13 21:11:44 INFO  LoginController:47 - validate       :==--->false
+2025-10-13 21:11:44 INFO  LoginController:76 - isValid:--->true
+2025-10-13 21:11:44 INFO  RegisterController:37 - Secret already exists...

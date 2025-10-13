@@ -1,15 +1,21 @@
 package com.authenticate.service;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.warrenstrange.googleauth.GoogleAuthenticator;
 
-import java.io.IOException;
-import java.nio.file.*;
-
 public class TOTPLoginService {
-
+	
+	private static final Logger logger = LoggerFactory.getLogger(TOTPLoginService.class);
     public static boolean verifyCode(String username, int code) throws IOException {
         Path filePath = Paths.get("user_secrets", username + ".key");
-        System.out.println("filePath:-->"+filePath.toString());
+        logger.info("filePath:-->"+filePath.toString());
         
         if (!Files.exists(filePath)) {
             throw new IllegalStateException("User not registered for TOTP");
@@ -17,7 +23,8 @@ public class TOTPLoginService {
 
         
         String secret = new String(Files.readAllBytes(filePath));
-        System.out.println("secret  :--->"+secret);
+        logger.info("secret  :--->"+secret);
+        logger.info("code  :--->"+code);
         GoogleAuthenticator gAuth = new GoogleAuthenticator();
         return gAuth.authorize(secret, code);
     }

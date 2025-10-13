@@ -1,0 +1,41 @@
+JavaFx-Login  Version 1.0.0
+© 2025 A & M Techies Pvt. Ltd.  All rights reserved.
+Tagline: Smart Software. Seamless Solutions.
+
+==
+END USER LICENSE AGREEMENT (EULA)
+==
+
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE.
+
+By installing, copying, or using the JavaFx-Login application ("Software"), you agree to be bound by the terms of this End User License Agreement ("Agreement").
+
+1. LICENSE GRANT
+A & M Techies Pvt. Ltd. grants you a limited, non-exclusive, non-transferable license to install and use this Software solely for internal or personal purposes.
+
+2. RESTRICTIONS
+You may not:
+ - Modify, reverse engineer, decompile, or disassemble the Software.
+ - Distribute, rent, lease, or sublicense the Software to any third party.
+ - Remove or alter any copyright, logo, or trademark notices.
+
+3. OWNERSHIP
+All rights, title, and interest in and to the Software remain the property of A & M Techies Pvt. Ltd.
+
+4. WARRANTY DISCLAIMER
+This Software is provided "AS IS" without warranties of any kind, express or implied. A & M Techies Pvt. Ltd. makes no representations regarding the suitability or performance of the Software.
+
+5. LIMITATION OF LIABILITY
+In no event shall A & M Techies Pvt. Ltd. be liable for any damages arising from the use or inability to use this Software, even if advised of the possibility of such damages.
+
+6. TERMINATION
+This license is effective until terminated. Failure to comply with any term of this Agreement will automatically terminate your license.
+
+7. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of India.
+
+ACKNOWLEDGEMENT
+By clicking "Install" or using this Software, you acknowledge that you have read, understood, and agree to be bound by this Agreement.
+
+© 2025 A & M Techies Pvt. Ltd.
+Smart Software. Seamless Solutions.

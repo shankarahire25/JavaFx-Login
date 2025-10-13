@@ -6,8 +6,10 @@ com\authenticate\LicenseValidator.class
 com\authenticate\MacUtils.class
 com\authenticate\util\TOTPUtils.class
 com\authenticate\AppConfig.class
+com\authenticate\util\AppLogger.class
 com\authenticate\security\LoginValidator.class
 com\authenticate\LicenseKeyGenerator.class
+com\authenticate\util\Launcher.class
 com\authenticate\service\TOTPLoginService.class
 com\authenticate\controller\RegisterController.class
 com\authenticate\totp\QRCodeGenerator.class

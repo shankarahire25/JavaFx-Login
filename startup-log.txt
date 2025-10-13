@@ -1,0 +1,38 @@
+Prism pipeline init order: d3d sw 
+Using Double Precision Marlin Rasterizer
+Using dirty region optimizations
+Not using texture mask for primitives
+Not forcing power of 2 sizes for textures
+Using hardware CLAMP_TO_ZERO mode
+Opting in for HiDPI pixel scaling
+Prism pipeline name = com.sun.prism.d3d.D3DPipeline
+Loading D3D native library ...
+	succeeded.
+D3DPipelineManager: Created D3D9Ex device
+Direct3D initialization succeeded
+(X) Got class = class com.sun.prism.d3d.D3DPipeline
+Initialized prism pipeline: com.sun.prism.d3d.D3DPipeline
+Maximum supported texture size: 8192
+Maximum texture size clamped to 4096
+OS Information:
+	Windows version 10.0 build 19045
+D3D Driver Information:
+	Intel(R) HD Graphics Family
+	\\.\DISPLAY1
+	Driver igdumdim64.dll, version 20.19.15.4531
+	Pixel Shader version 3.0
+	Device : ven_8086, dev_0A16, subsys_06511028
+	Max Multisamples supported: 4
+ vsync: true vpipe: true
+2025-10-13 21:11:38 INFO  MainApp:58 - Starting JavaFX application...
+2025-10-13 21:11:39 INFO  LicenseKeyGenerator:28 - data:--->74-E6-E2-08-A1-E3=2025-11-11
+2025-10-13 21:11:39 INFO  LicenseKeyGenerator:57 - license.key already exists and is not empty. Skipping write.
+2025-10-13 21:11:40 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+new alphas with length = 4096
+2025-10-13 21:11:44 INFO  LoginController:40 - username:==--->a
+2025-10-13 21:11:44 INFO  LicenseValidator:46 - expiryDateStr:-->2025-11-11
+2025-10-13 21:11:44 INFO  LoginController:46 - validateLicense:==--->
+2025-10-13 21:11:44 INFO  LoginController:47 - validate       :==--->false
+2025-10-13 21:11:44 INFO  LoginController:76 - isValid:--->true
+2025-10-13 21:11:44 INFO  RegisterController:37 - Secret already exists...
+QuantumRenderer: shutdown

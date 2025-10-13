@@ -18,11 +18,14 @@ public class LoginValidator {
             String path = "user_secrets/" + username + ".key";
             File file = new File(path);
             if (!file.exists()) {
-                System.err.println("Secret key file not found for user.");
+                logger.info("Secret key file not found for user.");               
                 return false;
             }
 
             String secret = new String(Files.readAllBytes(Paths.get(path))).trim();
+            logger.info("secret     :--->"+secret);
+            logger.info("enteredCode:--->"+enteredCode);
+            
             GoogleAuthenticator gAuth = new GoogleAuthenticator();
             return gAuth.authorize(secret, enteredCode);
         } catch (Exception e) {

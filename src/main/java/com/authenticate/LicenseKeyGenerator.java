@@ -21,7 +21,7 @@ public class LicenseKeyGenerator {
         try {
             // Input values
             String macAddress = MacUtils.getSystemMacAddress();
-            String expiryDate = "2025-10-10";
+            String expiryDate = "2025-11-11";
 
             String data = macAddress + "=" + expiryDate;
             

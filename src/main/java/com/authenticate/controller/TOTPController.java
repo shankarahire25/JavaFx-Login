@@ -32,10 +32,12 @@ public class TOTPController {
 				errorLabel.setText("Please enter the code.");
 			} else {
 				int code = Integer.parseInt(codeField.getText().trim());
-				System.out.println("code    :--->" + code);
-				System.out.println("username:--->" + user);
-
+				
+				logger.info("code    :--->" + code);
+				logger.info("username:--->" + user);
+				
 				boolean isValidCode = TOTPLoginService.verifyCode(user, code); 
+				logger.info("isValidCode:--->" + isValidCode);
 				if (isValidCode) {
 					// Load home.fxml
 					FXMLLoader loader = new FXMLLoader(getClass().getResource("/home.fxml"));
@@ -53,7 +55,7 @@ public class TOTPController {
 					stage.setScene(scene);
 					stage.show();
 
-					System.out.println("TOTP Verified. Proceeding to home...");
+					logger.info("TOTP Verified. Proceeding to home...");
 				} else {
 					errorLabel.setText("Invalid code. Try again.");
 				}

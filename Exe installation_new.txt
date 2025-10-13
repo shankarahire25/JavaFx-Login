@@ -1,0 +1,116 @@
+test jar is running
+
+my-runtime\bin\java -jar build\javafx-springcore-login-1.0.0.jar
+
+JavaFx-Login.exe > log.txt 2>&1
+
+
+Step 1. Recreate the runtime with the correct module path
+
+rmdir /s /q my-runtime
+
+old 
+jlink ^
+  --module-path "C:\Program Files\javafx-sdk-21.0.2\lib;%JAVA_HOME%\jmods" ^
+  --add-modules java.base,javafx.controls,javafx.fxml,javafx.graphics,java.desktop,java.sql,java.naming ^
+  --output my-runtime
+  
+---------------------------
+
+jlink ^
+  --module-path "%JAVA_HOME%\jmods;C:\Program Files\javafx-sdk-21.0.2\lib" ^
+  --add-modules java.base,javafx.controls,javafx.fxml,javafx.graphics,java.desktop,java.sql,java.naming ^
+  --output my-runtime ^
+  --strip-debug ^
+  --compress=2 ^
+  --no-header-files ^
+  --no-man-pages
+
+Then copy JavaFX native DLLs manually:
+
+xcopy "C:\Program Files\javafx-sdk-21.0.2\bin\*.dll" my-runtime\bin\ /Y
+
+✅ This step is critical — it ensures prism_sw.dll, glass.dll, etc. are in your runtime’s bin/ folder.
+
+Step 2. Test again
+
+Now test launching:
+
+"%JAVA_HOME%\bin\java.exe" ^
+  -Dprism.verbose=true ^
+  --module-path "C:\Program Files\javafx-sdk-21.0.2\lib" ^
+  --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,java.sql,java.naming ^
+  -jar build\javafx-springcore-login-1.0.0.jar
+
+
+
+
+
+You should now see output like:
+
+Prism pipeline init order: d3d sw
+Using D3D pipeline
+
+
+and no errors.
+
+
+
+Step 3. Rebuild package
+
+Once that works, regenerate your .exe:
+1 -------------------------
+
+jpackage ^
+  --type exe ^
+  --input build ^
+  --name JavaFx-Login ^
+  --main-jar javafx-springcore-login-1.0.0.jar ^
+  --main-class com.authenticate.Launcher ^
+  --runtime-image my-runtime ^
+  --icon app.ico ^
+  --win-menu ^
+  --win-shortcut ^
+  --java-options "-Dprism.order=sw"
+
+2 -----------------------------------------
+
+jpackage ^
+  --type exe ^
+  --input build ^
+  --name "JavaFx-Login" ^
+  --main-jar javafx-springcore-login-1.0.0.jar ^
+  --main-class com.authenticate.Launcher ^
+  --runtime-image my-runtime ^
+  --icon app.ico ^
+  --win-menu ^
+  --win-shortcut ^
+  --win-dir-chooser ^
+  --win-per-user-install ^
+  --vendor "A & M Techies Pvt. Ltd." ^
+  --copyright "© 2025 A & M Techies Pvt. Ltd. All rights reserved." ^
+  --license-file license_desc.txt ^
+  --java-options "-Dprism.order=sw -splash:images/splash.png"
+
+
+3 ----------------------------------------
+
+jpackage ^
+--type exe ^
+--input build ^
+--name "JavaFx-Login" ^
+--main-jar javafx-springcore-login-1.0.0.jar ^
+--main-class com.authenticate.util.Launcher ^
+--runtime-image my-runtime ^
+--icon app.ico ^
+--win-menu ^
+--win-shortcut ^
+--win-dir-chooser ^
+--install-dir "JavaFx-Login" ^
+--vendor "A & M Techies Pvt. Ltd." ^
+--copyright "© 2025 A & M Techies Pvt. Ltd. All rights reserved." ^
+--license-file license_desc.txt ^
+--java-options "-Dprism.order=sw -splash:images/splash.png"
+
+
+
